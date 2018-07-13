@@ -6,7 +6,7 @@ $(function() {
   var url = new URL(urlString);
   var fileName = url.searchParams.get("var");
   var downloadButton = document.getElementById("downloadButton");
-  var buttonHref = "itms-services://?action=download-manifest&url=https://dl.dropbox.com/s/" + fileName + "/mainfest.plist";
+  var buttonHref = "itms-services://?action=download-manifest&url=https://www.dropbox.com/s/" + fileName + "/mainfest.plist";
   downloadButton.href=buttonHref;
 
   console.log(buttonHref);
